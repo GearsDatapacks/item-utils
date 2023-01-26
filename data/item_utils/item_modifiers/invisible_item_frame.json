@@ -1,0 +1,45 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "Invisible",
+      "italic": false
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:glow_item_frame",
+                "minecraft:item_frame"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{EntityTag:{Invisible:1b}}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:glow_item_frame",
+                "minecraft:item_frame"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+]
