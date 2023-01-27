@@ -1,3 +1,5 @@
+###By Gears
+
 scoreboard players enable @a item_utils.main_menu
 execute as @a[scores={item_utils.main_menu=1..}] run function item_utils:main_menu
 scoreboard players enable @a item_utils.custom_model_data
