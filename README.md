@@ -9,10 +9,12 @@ Current features:
 
 - Invisible item frames: Triggered by running `/trigger item_utils.invisible_item_frame`. If you are holding an item frame (glow or  normal), it will rename it to "Invisible" and when you place it down it will indeed be invisible.
 
-- Floating text: Triggered by running `/trigger item_utils.floating_text`. This will place floating text at your feet, the content of which is equal to the name of the item in your mainhand.
+- Text display: Triggered by running `/trigger item_utils.text_display`. This will place a text display at your feet, the content of which is equal to the name of the item in your mainhand.
 
-- Name styling: Triggered by running `/trigger item_utils.style_name`. This will help you format the current item in your hand, either for floating text or other purposes. It has a variety of options including different colours, and formats such as *italics* and **bold**.
+- Item display: Triggered by running `/trigger item_utils.item_display`. This will take the item it your hand and place it in a floating item display entity.
 
-- Remove floating text: Triggered by running `/trigger item_utils.remove_floating_text`. This removes the closest piece of floating text to you in case you messed up or just want to remove it.
+- Remove display entity: Triggered by running `/trigger item_utils.display_entity`. This removes the closest display entity to you in case you messed up or just want to remove it. (It will drop items from item displays)
+
+- Name styling: Triggered by running `/trigger item_utils.style_name`. This will help you format the current item in your hand, either for text displays or other purposes. It has a variety of options including different colours, and formats such as *italics* and **bold**.
 
 If you have any suggestions for this pack or found a bug, please let me know by joining my [Discord server](https://discord.gg/fmPKDqf9ze).

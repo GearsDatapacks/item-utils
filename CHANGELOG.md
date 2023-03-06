@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Item displays
+
+### Changed
+- Floating text now uses text displays
+
 ## [0.1.0] - 2023-01-27
 Initial release!
 
