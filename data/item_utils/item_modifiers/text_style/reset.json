@@ -1,8 +1,9 @@
 {
   "function": "minecraft:set_name",
   "entity": "this",
+  "target": "custom_name",
   "name": {
-    "nbt": "SelectedItem.tag.display.Name",
+    "nbt": "SelectedItem.components.minecraft:custom_name",
     "entity": "@s",
     "interpret": true,
     "color": "white",

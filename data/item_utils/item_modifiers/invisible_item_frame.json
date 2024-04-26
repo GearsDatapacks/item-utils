@@ -23,8 +23,13 @@
     ]
   },
   {
-    "function": "minecraft:set_nbt",
-    "tag": "{EntityTag:{Invisible:1b}}",
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "glow_item_frame",
+        "Invisible": true
+      }
+    },
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -33,7 +38,29 @@
           "equipment": {
             "mainhand": {
               "items": [
-                "minecraft:glow_item_frame",
+                "minecraft:glow_item_frame"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },{
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "item_frame",
+        "Invisible": true
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
                 "minecraft:item_frame"
               ]
             }

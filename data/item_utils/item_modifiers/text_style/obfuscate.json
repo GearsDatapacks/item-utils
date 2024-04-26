@@ -1,11 +1,11 @@
 {
-    "function": "minecraft:set_name",
-    "entity": "this",
-    "name": {
-      "nbt": "SelectedItem.tag.display.Name",
-      "entity": "@s",
-      "interpret": true,
-      "obfuscated": true
-    }
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "target": "custom_name",
+  "name": {
+    "nbt": "SelectedItem.components.minecraft:custom_name",
+    "entity": "@s",
+    "interpret": true,
+    "obfuscated": true
   }
-  
+}

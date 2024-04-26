@@ -1,5 +1,5 @@
 scoreboard players enable @a item_utils.main_menu
-execute as @a[scores={item_utils.main_menu=1..}] run function item_utils:main_menu
+execute as @a[scores={item_utils.main_menu=1..}] run function item_utils:menu/main
 
 scoreboard players enable @a item_utils.custom_model_data
 execute as @a[scores={item_utils.custom_model_data=1..}] run function item_utils:api/custom_model_data

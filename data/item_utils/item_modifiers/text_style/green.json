@@ -1,10 +1,11 @@
 {
-  "function":"set_name",
-  "entity":"this",
-  "name":{
-    "color":"green",
-    "nbt":"SelectedItem.tag.display.Name",
-    "entity":"@s",
-    "interpret":true
+  "function": "set_name",
+  "entity": "this",
+  "target": "custom_name",
+  "name": {
+    "color": "green",
+    "nbt": "SelectedItem.components.minecraft:custom_name",
+    "entity": "@s",
+    "interpret": true
   }
 }

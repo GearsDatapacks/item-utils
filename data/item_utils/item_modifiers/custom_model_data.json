@@ -1,16 +1,8 @@
-[
-  {
-    "function": "minecraft:copy_nbt",
-    "source": {
-      "type": "minecraft:storage",
-      "source": "itemutils:main"
-    },
-    "ops": [
-      {
-        "source": "CustomModelData",
-        "target": "CustomModelData",
-        "op": "replace"
-      }
-    ]
+{
+  "function": "minecraft:set_custom_model_data",
+  "value": {
+    "type": "minecraft:score",
+    "target": "this",
+    "score": "item_utils.custom_model_data"
   }
-]
+}
