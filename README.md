@@ -1,7 +1,7 @@
 # Item utils
 
-Item utils is a datapack by Gears that adds lots of small features to help display certain things in Minecraft survival without using cheats.\
-\
+Item utils is a datapack by Gears that adds lots of small features to help display certain things in Minecraft survival without using cheats.
+
 How to use: You can access the main menu by reloading or running the command `/trigger item_utils.main_menu`. This gives you a list of clickable buttons that will perform each of the different features. You can also trigger each feature manually.
 
 Current features: 
