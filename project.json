@@ -1,0 +1,17 @@
+{
+  "name": "Item Utils",
+  "slug": "item-utils",
+  "version": "0.1.2",
+  "game_versions": [
+    "1.21"
+  ],
+  "summary": "A variety of utility functions to spruce up your Minecraft survival world!",
+  "license": "GPL-3.0-or-later",
+  "categories": [],
+  "additional_categories": [],
+  "dependencies": {},
+  "dev_dependencies": {},
+  "optional_dependencies": {},
+  "release_type": "release",
+  "dpm_version": "0.1.2-indev-0"
+}

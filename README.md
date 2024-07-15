@@ -13,7 +13,7 @@ Current features:
 
 - Item display: Triggered by running `/trigger item_utils.item_display`. This will take the item it your hand and place it in a floating item display entity.
 
-- Remove display entity: Triggered by running `/trigger item_utils.display_entity`. This removes the closest display entity to you in case you messed up or just want to remove it. (It will drop items from item displays)
+- Remove display entity: Triggered by running `/trigger item_utils.remove_display_entity`. This removes the closest display entity to you in case you messed up or just want to remove it. (It will drop items from item displays)
 
 - Name styling: Triggered by running `/trigger item_utils.style_name`. This will help you format the current item in your hand, either for text displays or other purposes. It has a variety of options including different colours, and formats such as *italics* and **bold**.
 
